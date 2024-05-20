@@ -1,0 +1,262 @@
+.shoppingCart .icon-hover-primary:hover {
+	background-color: white !important;
+}
+
+.shoppingCart .icon-hover-primary:hover i {
+	color: #e90000 !important;
+}
+
+.shoppingCart .icon-hover-danger:hover {
+	border: none;
+}
+
+.shoppingCart .icon-hover-danger:hover {
+	background-color: #ff7a7a5d;
+	color: #ffffff;
+}
+
+.icon-hover-danger:hover i {
+	color: #dc4c64 !important;
+}
+
+.cartImg img {
+	width: 100%;
+}
+
+
+.shoppingCart .nav-link {
+	padding: 0 0;
+}
+
+.shoppingCart hr {
+	width: 100%;
+}
+
+.shoppingCart .btn-success {
+	background-color: #4B4646 !important;
+}
+
+.shoppingCart .shadow-0 .btn {
+	padding: .125rem .395rem;
+}
+
+.shoppingCart .quantity .input-group {
+	border-radius: 0;
+	width: 100px;
+}
+
+.shoppingCart .quantity button,
+.shoppingCart .quantity input {
+	padding: 5px;
+}
+
+.shoppingCart .shoppingPurchaseAndBackBtn .btn {
+	padding: .35rem .75rem !important;
+}
+
+@media screen and (max-width: 576px) {
+	.shoppingCart .quantity {
+		padding-right: 1rem;
+	}
+}
+
+
+.check-out-button .Checkout {
+	background-color: #4B4646;
+}
+
+.check-out-button .Shopping {
+	background-color: #2E2E2E;
+	color: #ffff;
+}
+
+.check-out-button button {
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.billing-page .section-title h2:after {
+	width: 400px;
+}
+
+.billing-page .card {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) !important;
+}
+
+.billing-page .payment-formm {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) !important;
+	padding: 30px;
+	border: 0;
+	margin-top: 30px;
+}
+
+.cart_total h5 {
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif !important;
+	color: #000;
+}
+
+input[type=radio] {
+	accent-color: #4B4646;
+}
+
+.thank-you {
+	background-image: url(../images/thank_bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 80px 0;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.checkout-form {
+	padding: 30px;
+}
+
+.billing-page .card {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) !important;
+}
+
+.section-9 .cart-summery {
+	font-size: 18px;
+	padding: 20px;
+	border: none;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.billing-page .payment-formm {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) !important;
+	padding: 30px;
+	border: 0;
+	margin-top: 30px;
+}
+
+
+.cart-product-cobtent i {
+	color: #D7D7D7;
+	font-size: 20px;
+	/* padding-left: 10px; */
+}
+
+.check-out-button .Checkout {
+	background-color: #4B4646;
+}
+
+.check-out-button .Shopping {
+	background-color: #2E2E2E;
+	color: #ffff;
+}
+
+.check-out-button button {
+	border-radius: 5px;
+	padding: 10px 20px;
+}
+
+.billing-page .section-title h2:after {
+	width: 400px;
+}
+
+.billing-page .payment-formm {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) !important;
+	padding: 30px;
+	border: 0;
+	margin-top: 30px;
+}
+
+.cart_total h5 {
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif !important;
+	color: #000;
+}
+
+input[type=radio] {
+	accent-color: #4B4646;
+}
+
+
+.billing-page .btn_primary {
+	background-color: #4B4646 !important;
+	border-color: #4B4646 !important;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+	.shoppingCart .shadow-0 {
+		margin-top: 1rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.section-9 .cart-summery {
+		margin-block: 1.5rem !important;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.section-9 .cart-summery {
+		margin-block: 1rem !important;
+	}
+}
+
+.imgAndNameOfMyOrder {
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+  }
+  .myOrderImg {
+	border-radius: 5px;
+  }
+  .myOrderImg img {
+	width: 100% !important;
+  }
+  .myOrder .row {
+	align-items: center;
+  }
+  @media screen and (max-width: 768px) {
+	.imgAndNameOfMyOrder {
+	  flex-direction: column;
+	}
+	.myOrderPriceAndStatus {
+	  justify-content: start !important;
+	  gap: 1.5rem;
+	}
+	.pendingMainBtn {
+	  display: none;
+	}
+  }
+  .pendingBtn {
+	background-color: #FF4040;
+	padding: .5px 8px;
+	color: #FFFFFF;
+  }
+  .myOrderDetailsBtn .btn-danger {
+	background-color: #4B4646;
+  }
+  @media screen and (max-width: 576px) {
+	.myOrderProductDetails {
+	  justify-content: center;
+	}
+	.myOrderPriceAndStatus {
+	  display: block !important;
+	  text-align: center;
+	}
+	.myOrderDetailsBtn {
+	  display: flex;
+	  justify-content: center;
+	}
+  }
+
+
+  .myOrder .card, .myOrderDetailsPage .card {
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10) !important;
+  }
+  .myOrderDetailsPage .card {
+	border: none;
+  }
+
